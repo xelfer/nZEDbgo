@@ -6,7 +6,7 @@ Instructions:
 
 1. I encourage you to look through go.sh and see what it does, and ensure i'm not hacking your gibson
 
-2. Launch a "Ubuntu Server 14.04 LTS" - ami-41128a7b, the t2.micro tier works fine if you're just starting out, and it's free for a year for new AWS accounts.
+2. Launch a "Ubuntu Server 14.04 LTS" - ami-41128a7b, the t2.micro tier works fine if you're just starting out, and it's free for a year for new AWS accounts. Alternatively, a fresh install of ubuntu on a home machine will probably work, but it's untested. 
 
 3. ssh to said machine
 
