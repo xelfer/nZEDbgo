@@ -2,6 +2,8 @@ A script to install nZEDb automagically. I built this script from [these instruc
 
 **Notes:**
 
+This is aimed at a fresh AWS instance of Ubuntu Server 14.04. It will probably work with a fresh install somewhere else as well, but I haven't tested it. 
+
 It's your responsibility to sign up to AWS and to figure out how to use keys and security groups. I may write a tutorial on this later on, but for now it's assumed you know what you're doing here. If you don't and need a place to start, head over to http://aws.amazon.com/. There's probably a bunch of tutorials for this online already. 
 
 I encourage you to look through go.sh and see what it does, and ensure i'm not hacking your gibson.
@@ -14,7 +16,7 @@ It is **HIGHLY SUGGESTED** you set up an AWS BillingAlarm to ensure you don't ov
 
 **Instructions:**
 
-1. Launch a "Ubuntu Server 14.04 LTS" - ami-41128a7b instance, the t2.micro tier works fine if you're just starting out and it's free for a year for new AWS accounts. Alternatively, a fresh install of ubuntu on a home machine will probably work, but it's untested. 
+1. Launch a "Ubuntu Server 14.04 LTS" - ami-41128a7b instance, the t2.micro tier works fine if you're just starting out and it's free for a year for new AWS accounts.
 
 2. ssh to said machine
 
