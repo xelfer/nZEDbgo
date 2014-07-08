@@ -4,15 +4,20 @@ Sign up to AWS, figure out how to use keys and security groups. I may write a tu
 
 Instructions:
 
-1. Launch a "Ubuntu Server 14.04 LTS" - ami-41128a7b, the t2.micro tier works fine if you're just starting out, and it's free for a year for new AWS accounts.
+1. I encourage you to look through go.sh and see what it does, and ensure i'm not hacking your gibson
 
-2. ssh to said machine
+2. Launch a "Ubuntu Server 14.04 LTS" - ami-41128a7b, the t2.micro tier works fine if you're just starting out, and it's free for a year for new AWS accounts.
 
-3. sudo su -
+3. ssh to said machine
 
-4. wget https://raw.githubusercontent.com/xelfer/nZEDbgo/master/go.sh
+4. sudo su -
 
-5. bash go.sh
-..and follow the on-screen instructions. 
+5. wget https://raw.githubusercontent.com/xelfer/nZEDbgo/master/go.sh
 
-6. Browse to http://your-server-ip/
+6. bash go.sh 
+
+7. Browse to http://your-server-ip/
+
+You should see:
+![nZEDb config page](http://note.io/U03IuC)
+
