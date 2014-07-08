@@ -1,6 +1,6 @@
 Script to install nZEDb. 
 
-Sign up to AWS, figure out how to use keys and security groups. I may write a tutorial on this later on, but for now it's assumed you know what you're doing here. If you don't and need a place to start, head over to http://aws.amazonwebservices.com/
+Sign up to AWS, figure out how to use keys and security groups. I may write a tutorial on this later on, but for now it's assumed you know what you're doing here. If you don't and need a place to start, head over to http://aws.amazon.com/
 
 Instructions:
 
