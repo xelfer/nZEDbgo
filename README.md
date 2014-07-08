@@ -8,8 +8,7 @@ I encourage you to look through go.sh and see what it does, and ensure i'm not h
 
 This script completely disables apparmor. If you need it, you can probably figure out how to remove the mysql exception and re-enable it. 
 
-The script does NOT set your php timezone, that's up to you as I don't have a clue where you're from. (it's not 100% necessary either). 
-You can fix this by editing /etc/php5/apache2/php.ini and setting the date.timezone option. 
+The script does NOT set your php timezone, that's up to you as I don't have a clue where you're from. (it's not 100% necessary either).  You can fix this by editing /etc/php5/apache2/php.ini and setting the date.timezone option. (Don't forget to restart apache). 
 
 Instructions:
 
