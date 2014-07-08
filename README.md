@@ -32,4 +32,10 @@ You should see: ![nZEDb config page](http://note.io/U03IuC)
 
 9. "Go to step 3" then enter in your news server details. If you need one I recommend [usenetbucket](https://www.usenetbucket.com/en-r/?u=28679). Complete this by scrolling down and clicking "Test Primary Connection".
 
-10. The final step is something about local account creation. do that.  
+10. "Step four: save settings" 
+
+11. "Step five: setup admin user" - straight forward, create your own account. 
+
+12. "Step six: set file paths" - I accept defaults, "Set file paths"
+
+Tada! ![install complete](http://note.io/1maTP8x)
