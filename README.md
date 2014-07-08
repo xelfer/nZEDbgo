@@ -1,4 +1,4 @@
-A script to install nZEDb automagically. 
+A script to install nZEDb automagically. I built this script from the instructions listed here: https://github.com/nZEDb/nZEDb_Misc/tree/master/Guides
 
 **Notes:**
 
