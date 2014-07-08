@@ -26,15 +26,15 @@ It is **HIGHLY SUGGESTED** you set up an AWS BillingAlarm to ensure you don't ov
 
 6. Browse to http://your-server-ip/
 
-You should see:
+ You should see:
 
-![nZEDb config page](http://note.io/U03IuC)
+ ![nZEDb config page](http://note.io/U03IuC)
 
 7. Follow the buttons "Go to step one" and then on the next page "go to step two". 
 
 8. Enter the following:
 
-![nZEDb db config](http://note.io/U04BTN)
+ ![nZEDb db config](http://note.io/U04BTN)
 
 9. "Go to step 3" then enter in your news server details. If you need one I recommend [usenetbucket](https://www.usenetbucket.com/en-r/?u=28679). Complete this by scrolling down and clicking "Test Primary Connection".
 
