@@ -10,6 +10,8 @@ This script completely disables apparmor. If you need it, you can probably figur
 
 The script does NOT set your php timezone, that's up to you as I don't have a clue where you're from. (it's not 100% necessary either).  You can fix this by editing /etc/php5/apache2/php.ini and setting the date.timezone option. (Don't forget to restart apache). 
 
+It is **HIGHLY SUGGESTED** you set up an AWS BillingAlarm to ensure you don't over your free tier allowance. Upon testing this automated install I exceeded the allowance, though I can't really tell if that was due to the indexer or due to me reinstalling the same packages about 15 times. That said, my bill was a massive $1.05. ;-) 
+
 **Instructions:**
 
 1. Launch a "Ubuntu Server 14.04 LTS" - ami-41128a7b instance, the t2.micro tier works fine if you're just starting out and it's free for a year for new AWS accounts. Alternatively, a fresh install of ubuntu on a home machine will probably work, but it's untested. 
