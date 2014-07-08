@@ -12,7 +12,7 @@ The script does NOT set your php timezone, that's up to you as I don't have a cl
 
 **Instructions:**
 
-1. Launch a "Ubuntu Server 14.04 LTS" - ami-41128a7b, the t2.micro tier works fine if you're just starting out, and it's free for a year for new AWS accounts. Alternatively, a fresh install of ubuntu on a home machine will probably work, but it's untested. 
+1. Launch a "Ubuntu Server 14.04 LTS" - ami-41128a7b instance, the t2.micro tier works fine if you're just starting out and it's free for a year for new AWS accounts. Alternatively, a fresh install of ubuntu on a home machine will probably work, but it's untested. 
 
 2. ssh to said machine
 
