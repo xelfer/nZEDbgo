@@ -18,7 +18,8 @@ wget http://mediaarea.net/download/binary/mediainfo/0.7.69/mediainfo_0.7.69-1_am
 echo "Configuring..."
 echo "group_concat_max_len = 8192" > /etc/mysql/conf.d/nZEDb.conf; service mysql restart
 
-read pw -p  "Enter the MariaDB (MySQL) password you configured earlier: "
+echo "Enter the MariaDB (MySQL) password you configured earlier: "
+read pw
 mysql -u root -p$pw -Bse "GRANT ALL ON *.* TO 'nzedb'@'localhost';flush privileges;"
 
 cat >>/etc/apache2/sites-available/nZEDb.conf << EOF
